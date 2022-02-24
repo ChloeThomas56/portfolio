@@ -1,0 +1,13 @@
+body {
+  position: relative;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

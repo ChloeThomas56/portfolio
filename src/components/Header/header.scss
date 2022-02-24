@@ -1,0 +1,22 @@
+@use 'src/styles/vars';
+
+.header {
+    text-align: right;
+    padding: vars.$gutter;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    &__list-item {
+        padding: 0 1em;
+        margin: 0 0.3em;
+        font-size: 0.9em;
+        text-transform: uppercase;
+
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+        }
+    }
+}

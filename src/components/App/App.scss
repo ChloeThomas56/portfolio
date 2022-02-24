@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.app {
+    color: vars.$dark-grey;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
