@@ -1,2 +1,58 @@
 @use 'src/styles/vars';
 
+.about {
+
+    &__container {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 5rem;
+    }
+
+    &__left-section {
+        width: 50%;
+    }
+
+    &__right-section {
+        width: 50%;
+        text-align: right;
+    }
+
+    &__text {
+        margin-bottom: 1rem;
+        line-height: 1.8;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 0 1rem auto;
+        border-radius: 50%;
+        filter: drop-shadow(5px 5px 0.8rem rgba(0, 0, 0, 0.658)) grayscale(50%);
+    }
+
+    &__button {
+        background-color: vars.$dark-grey;
+        padding: 1rem 2rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+
+        &-text {
+            margin-right: 1rem;
+        }
+
+        &-icon {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__aside {
+        
+    }
+}

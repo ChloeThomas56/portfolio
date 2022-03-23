@@ -12,7 +12,7 @@ const animation = keyframes`
     100% {opacity: 1; transform: translateY(0); }
 `
 
-const Container = styled.h1`
+const Container = styled.h2`
     opacity: 0;
     animation-name: ${animation};
     animation-duration: 3s;

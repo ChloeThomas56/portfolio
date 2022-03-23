@@ -6,9 +6,9 @@ import './home.scss';
 import TitleAnimation from './animations/TitleAnimation';
 import SubtitleAnimation from './animations/SubtitleAnimation';
 
-const Home = (props) => {
+const Home = ({componentRef}) => {
   return (
-    <div className='home'>
+    <div ref={componentRef} className='home'>
       <div className='home__titles'>
         <div className='home__titles-name'><TitleAnimation /></div>
         <div className='home__titles-position'><SubtitleAnimation /></div>

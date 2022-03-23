@@ -1,0 +1,8 @@
+@use 'src/styles/vars';
+
+.title {
+    font-family: vars.$special-font;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: vars.$gutter;
+}

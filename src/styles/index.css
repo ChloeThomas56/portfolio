@@ -5,9 +5,14 @@ body {
   -moz-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url(../assets/cursor.png),auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+strong {
+  font-weight: bold;
 }

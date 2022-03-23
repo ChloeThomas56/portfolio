@@ -7,11 +7,15 @@
     top: 0;
     right: 0;
     z-index: 1;
+    color: white;
+    mix-blend-mode: difference;
 
     &__list-item {
-        padding: 0 1em;
-        margin: 0 0.3em;
-        font-size: 0.9em;
+        display: inline;
+        cursor: pointer;
+        padding: 0 1rem;
+        margin: 0 0.3rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
 
         &:last-child {

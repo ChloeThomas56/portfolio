@@ -1,0 +1,18 @@
+@use 'src/styles/vars';
+
+.footer {
+    text-align: right;
+    padding: vars.$gutter;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    mix-blend-mode: difference;
+
+    &__button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 2rem;
+    }
+}
